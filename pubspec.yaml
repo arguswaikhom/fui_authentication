@@ -28,7 +28,8 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   flirt_with_style:
-    path: ../flirt_with_style
+    git:
+      url: https://github.com/arguswaikhom/flirt_with_style.git
   flutter:
     sdk: flutter
 
